@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 370" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Gold / Amber Gradient for JR -->
+    <linearGradient id="jrGoldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD200" />
+      <stop offset="45%" stop-color="#FFA800" />
+      <stop offset="100%" stop-color="#ED6922" />
+    </linearGradient>
+
+    <!-- Blue Gradient for Roof Structure -->
+    <linearGradient id="jrRoofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3288D4" />
+      <stop offset="50%" stop-color="#1A63A7" />
+      <stop offset="100%" stop-color="#0B3E70" />
+    </linearGradient>
+
+    <linearGradient id="jrRoofGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B92DE" />
+      <stop offset="100%" stop-color="#12518C" />
+    </linearGradient>
+  </defs>
+
+  <!-- 1. ROOF STRUCTURE (Top Right Slopes) -->
+  <!-- Top Left Small Apex Cap -->
+  <polygon points="172,90 205,38 238,90 205,90" fill="url(#jrRoofGrad2)" />
+
+  <!-- Inner Diagonal Rafter Beam -->
+  <polygon points="214,18 266,18 368,198 316,198" fill="url(#jrRoofGrad)" />
+
+  <!-- Outer Large Diagonal Roof Beam -->
+  <polygon points="296,18 438,18 518,198 436,198 344,38 285,38" fill="url(#jrRoofGrad)" />
+
+  <!-- 2. "JR" MONOGRAM (Gold Gradient) -->
+  <!-- Letter "J" -->
+  <path
+    d="M 32,206 L 94,206 L 94,180 L 118,180 L 118,88 L 86,88 L 86,104 L 80,104 L 80,88 L 32,88 L 32,108 L 86,108 L 86,180 L 32,180 Z"
+    fill="url(#jrGoldGrad)"
+  />
+  <!-- Alternative clean solid block J matching original -->
+  <path
+    d="M 30,172 L 95,172 L 95,78 L 120,78 L 120,198 L 30,198 Z"
+    fill="url(#jrGoldGrad)"
+  />
+
+  <!-- Letter "R" -->
+  <path
+    d="M 132,78 L 220,78 L 244,102 L 244,124 L 220,148 L 180,148 L 248,198 L 208,198 L 158,154 L 158,198 L 132,198 Z 
+       M 158,98 L 158,132 L 204,132 L 220,116 L 204,98 Z"
+    fill="url(#jrGoldGrad)"
+    fill-rule="evenodd"
+  />
+
+  <!-- 3. "ROOFING" WORDMARK (Bold Chamfered / Octagonal Font) -->
+  <g fill="#13599A">
+    <!-- R -->
+    <path d="M 30,224 L 74,224 L 88,238 L 88,256 L 74,270 L 52,270 L 88,302 L 64,302 L 36,274 L 46,274 L 46,252 L 46,224 Z 
+             M 46,236 L 46,258 L 70,258 L 76,250 L 76,244 L 70,236 Z" fill-rule="evenodd" />
+    
+    <!-- O -->
+    <path d="M 104,224 L 140,224 L 154,238 L 154,288 L 140,302 L 104,302 L 90,288 L 90,238 Z 
+             M 106,238 L 106,288 L 138,288 L 138,238 Z" fill-rule="evenodd" />
+
+    <!-- O -->
+    <path d="M 170,224 L 206,224 L 220,238 L 220,288 L 206,302 L 170,302 L 156,288 L 156,238 Z 
+             M 172,238 L 172,288 L 204,288 L 204,238 Z" fill-rule="evenodd" />
+
+    <!-- F -->
+    <path d="M 232,224 L 284,224 L 284,238 L 248,238 L 248,256 L 278,256 L 278,270 L 248,270 L 248,302 L 232,302 Z" />
+
+    <!-- I -->
+    <path d="M 296,224 L 312,224 L 312,302 L 296,302 Z" />
+
+    <!-- N -->
+    <path d="M 324,224 L 340,224 L 368,276 L 368,224 L 384,224 L 384,302 L 368,302 L 340,250 L 340,302 L 324,302 Z" />
+
+    <!-- G -->
+    <path d="M 408,224 L 444,224 L 458,238 L 458,248 L 442,248 L 442,238 L 410,238 L 410,288 L 442,288 L 442,272 L 426,272 L 426,260 L 458,260 L 458,288 L 444,302 L 408,302 L 394,288 L 394,238 Z" />
+  </g>
+
+  <!-- 4. "SOLUTIONS LLC" (Centered Under Right Side) -->
+  <g fill="#13599A" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="4">
+    <text x="515" y="342" text-anchor="end">SOLUTIONS LLC</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "JR Roofing Solutions",
+  "description": "JR Roofing Solutions - South Florida's trusted roofing contractor in Pompano Beach and Broward County. Specializing in Shingle, Tile, Metal, Flat, and Commercial roofing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
